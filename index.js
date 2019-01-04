@@ -102,9 +102,9 @@ Discord.Status = class {
 
                     break;
 
-                default:
+               
 
-                    break;
+
 
             }
 
