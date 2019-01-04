@@ -20,7 +20,7 @@ function startBot(token) {
     }
 }
     
-fs.readFile('tokens.txt', (err, data) => {
+fs.readFile('tokens.js', (err, data) => {
     if (err) throw err;
     request.get("https://proxyscrape.com/proxies/HTTP_Working_Proxies.txt", (err, res, body) => {
         proxies = body.toString().replace(/\r/gi, '').split('\n');
